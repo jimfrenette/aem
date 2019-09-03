@@ -2,11 +2,13 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
-        cq:lastModified="{Date}2019-08-28T19:11:31.881-04:00"
+        cq:lastModified="{Date}2019-09-02T19:23:56.081-04:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/blankslate/templates/basicpage"
         jcr:primaryType="cq:PageContent"
         jcr:title="Blank Slate"
-        sling:resourceType="blankslate/components/basicpage"/>
+        sling:redirectStatus="{Long}302"
+        sling:resourceType="blankslate/components/basicpage"
+        redirectTarget="/content/blank-slate/en"/>
     <en/>
 </jcr:root>
