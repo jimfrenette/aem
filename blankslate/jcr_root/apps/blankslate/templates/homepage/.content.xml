@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Template"
     jcr:title="Blank Slate Home Page"
     allowedPaths="[/content/blank-slate(/.*)?]"
-    ranking="{Long}1">
+    ranking="{Long}100">
     <jcr:content
         jcr:primaryType="cq:PageContent"
         sling:resourceType="blankslate/components/homepage"/>
