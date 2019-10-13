@@ -45,6 +45,23 @@
                                 sling:resourceType="granite/ui/components/foundation/form/textfield"
                                 fieldLabel="Alt Text"
                                 name="./desktop/alt"/>
+                            <size
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="cq/gui/components/authoring/dialog/sizefield"
+                                fieldLabel="Size (px)">
+                                <width
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/form/numberfield"
+                                    defaultValue=""
+                                    emptyText="Width"
+                                    name="./desktop/width"/>
+                                <height
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/form/numberfield"
+                                    defaultValue=""
+                                    emptyText="Height"
+                                    name="./desktop/height"/>
+                            </size>
                         </items>
                     </column>
                 </items>
@@ -81,6 +98,23 @@
                                 sling:resourceType="granite/ui/components/foundation/form/textfield"
                                 fieldLabel="Alt Text"
                                 name="./mobile/alt"/>
+                            <size
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="cq/gui/components/authoring/dialog/sizefield"
+                                fieldLabel="Size (px)">
+                                <width
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/form/numberfield"
+                                    defaultValue=""
+                                    emptyText="Width"
+                                    name="./mobile/width"/>
+                                <height
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/form/numberfield"
+                                    defaultValue=""
+                                    emptyText="Height"
+                                    name="./mobile/height"/>
+                            </size>
                         </items>
                     </column>
                 </items>
